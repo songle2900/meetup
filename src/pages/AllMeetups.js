@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import MeetupList from "../components/meetups/MeetupList";
 
 function AllMeetupsPage() {
+  // new
   const [isLoading, setIsLoading] = useState(true);
   const [loadedMeetups, setLoadedMeetups] = useState([]);
 
